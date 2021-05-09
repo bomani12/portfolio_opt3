@@ -1,1 +1,18 @@
 
+class netwerlogger{
+    public static void main(String[] args){
+
+    }
+}
+class aanwezig{
+private static long uniekNummer = 0l;
+private String Naam;
+private boolean aangemeld;
+public aanwezig(long uniekNummer, String Naam, boolean aangemeld){
+    this.Naam = Naam;
+    this.uniekNummer = uniekNummer;
+    this.aangemeld = aangemeld;
+}
+public String geefAanWieErIs()
+
+}
