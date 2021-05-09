@@ -1,18 +1,35 @@
 
-class netwerlogger{
-    public static void main(String[] args){
+class net{}
 
+
+class Aanwezig {
+    private static long uniekNummer = 0l;
+    private String Naam;
+    private boolean aangemeld;
+
+    public Aanwezig(long uniekNummer, String Naam, boolean aangemeld) {
+        this.Naam = Naam;
+        this.uniekNummer = uniekNummer;
+        this.aangemeld = aangemeld;
+    }
+
+    public String geefAanWieErIs(String naam, long ingevuldNummer, boolean aangemeld) {
+        if (Naam.equals(naam) && uniekNummer == ingevuldNummer && aangemeld == true) {
+        }
+        return naam + " is aanwezig";
     }
 }
-class aanwezig{
-private static long uniekNummer = 0l;
-private String Naam;
-private boolean aangemeld;
-public aanwezig(long uniekNummer, String Naam, boolean aangemeld){
-    this.Naam = Naam;
-    this.uniekNummer = uniekNummer;
-    this.aangemeld = aangemeld;
-}
-public String geefAanWieErIs()
+ class Functie{
+    private String lijst;
+    private long werknummer;
 
-}
+    public Functie(String lijst, long werknummer ){
+        this.lijst = lijst;
+
+    }
+    public String getFunctie(){
+     if (werknummer > 2000){
+         return lijst
+     }
+    }
+ }
