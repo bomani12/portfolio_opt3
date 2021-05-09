@@ -1,11 +1,1 @@
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-class AanwezigTest {
-
-    @Test
-    void geefAanWieErIs() {
-        Aanwezig aanwezig = new Aanwezig(22001,"Gio", true);
-        assertEquals("Gio is aanwezig", aanwezig.geefAanWieErIs("Gio",22001,true));
-    }
-}
